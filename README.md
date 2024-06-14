@@ -9,14 +9,6 @@ This is the source code for my personal website to use for my 3rd year of IMS if
 ## 🏁 Goal
 The goal of this website is to be appealing to informatics companies in hopes to get hired for my fourth year of IMS and hopefully get my certificate in informatics specializing in application development
 
-## 🚦 Roadmap
-- Finish the rough design
-- Finish the layout
-- Determine a good color scheme
-- Finish the backend
-- Finish the frontend
-- Finalize the design
-
 ## ✅ Requirements
 
 ### Personal Data
@@ -43,7 +35,4 @@ The goal of this website is to be appealing to informatics companies in hopes to
 ### Technical Details
 
 #### Where is the website hosted?
-At the moment the website isn't being hosted anywhere
-
-### Access Data given to IMS overseer?
-Not yet
+The Website will be hosted on hostinger but for testing purposes will be deployed on github pages. 
