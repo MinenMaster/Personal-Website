@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Documents = () => {
+export default function Documents() {
   return (
     <div className="relative flex place-items-center before:absolute  before:w-full sm:before:w-[480px] 
     before:rounded-full before:from-white before:to-transparent
@@ -10,5 +10,3 @@ const Documents = () => {
     before:lg:h-[360px]"> Documents</div>
   )
 }
-
-export default Documents
