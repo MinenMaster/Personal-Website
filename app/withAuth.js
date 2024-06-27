@@ -4,14 +4,18 @@ import useSession from './lib/hooks/session';
 import Cookies from 'js-cookie';
 
 export default function withAuth(WrappedComponent) {
-    return function(props) {
+    const WithAuthComponent = (props) => {
         const { user } = useSession();
         const sessionCookie = Cookies.get('session');
 
         if (!sessionCookie) {
-            return <Navigate to="/login" />;
+            return <Navigate to="/login" replace />;
         }
 
         return <WrappedComponent {...props} />;
     };
+
+    WithAuthComponent.displayName = `WithAuth(${getDisplayName(WrappedComponent)})`;
+
+    return WithAuthComponent;
 }
