@@ -12,9 +12,9 @@ export default function RootLayout({ children }) {
       <body>
         <nav>
           <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/project">Project</a></li>
-            <li><a href="/documents">Documents</a></li>
+            <li><a href="./about">About</a></li>
+            <li><a href="./project">Project</a></li>
+            <li><a href="./documents">Documents</a></li>
           </ul>
         </nav>
         {children}
